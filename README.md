@@ -11,5 +11,20 @@ A Streamlit web app for interactive predictions
 Version control with meaningful commits across weekly milestones
 MIT License included
 
+Dataset Source: UCI Bike Sharing Dataset
+https://archive.ics.uci.edu/dataset/275/bike+sharing+dataset
+
 ⚙️ Installation
-git clone 
+git clone https://github.com/Iminokhun/cw_ml.git
+cd cw_ml
+
+Create and activate virtual environment
+python -m venv venv
+venv\Scripts\activate
+
+📦 Install dependencies
+pip install -r requirements.txt
+
+Run the Streamlit App
+streamlit run app/streamlit_app.py
+
